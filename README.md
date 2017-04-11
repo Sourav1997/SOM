@@ -4,10 +4,8 @@ This is a demo implimentation of Self Organising Map
 
 #Self-Organizing Maps with Google’s TensorFlow
 
-[This post assumes that you know the basics of Google’s TensorFlow library. If you don’t, have a look at my earlier post to get started.]
-
 kohonen1
 
 A Self-Organizing Map, or SOM, falls under the rare domain of unsupervised learning in Neural Networks. Its essentially a grid of neurons, each denoting one cluster learned during training. Traditionally speaking, there is no concept of neuron ‘locations’ in ANNs. However, in an SOM, each neuron has a location, and neurons that lie close to each other represent clusters with similar properties. Each neuron has a weightage vector, which is equal to the centroid of its particular cluster.
 
-AI-Junkie’s post does a great job of explaining how an SOM is trained, so I won’t re-invent the wheel.
+#For more see the pdf on how the SOM works
